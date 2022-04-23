@@ -13,7 +13,6 @@ public class FinancialOperations {
         double amountOfGoods = scan.nextDouble();
         System.out.printf("За сколько вы хотите его купить\n");
         double amountOfMoney = scan.nextDouble();
-        
         accountsList[firstAccount].credit += amountOfMoney;
         accountsList[firstAccount].amountOfGoods +=amountOfGoods;
 
